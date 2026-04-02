@@ -30,8 +30,10 @@ jobs:
         with:
           fetch-depth: 0
           lfs: true
-      - name: Git lfs pull
-        run: git lfs pull
+      #- name: Git lfs pull
+      #  run: git lfs pull
+      - name: Git lfs checkout
+        run: git lfs checkout
 
   # Single deploy job since we're just deploying
   deploy:
