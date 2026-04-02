@@ -31,7 +31,7 @@ jobs:
           fetch-depth: 0
           lfs: true
       - name: Git lfs pull
-        run: git lfs pull
+        run: git lfs pull "Build/Inkstrike-RF.data"
       #- name: Git lfs checkout
       #  run: git lfs checkout
 
