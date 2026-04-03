@@ -30,10 +30,8 @@ jobs:
         with:
           fetch-depth: 0
           lfs: true
-      - name: Git lfs pull
-        run: git lfs pull "Build/Inkstrike-RF.data"
-      #- name: Git lfs checkout
-      #  run: git lfs checkout
+      #- name: Git lfs pull
+      #  run: git lfs pull
 
   # Single deploy job since we're just deploying
   deploy:
